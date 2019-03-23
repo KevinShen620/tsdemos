@@ -1,0 +1,22 @@
+{
+  "name": "@vamsc/tsdemos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vamsc/base-client-common": "git+ssh://git@git.vamsc.com:/srv/git/base-client-common.git#webpack",
+    "lodash": "^4.17.4",
+    "q": "^1.5.1",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.99",
+    "@types/q": "^1.0.7",
+    "@types/react-router-dom": "^4.2.3"
+  }
+}
